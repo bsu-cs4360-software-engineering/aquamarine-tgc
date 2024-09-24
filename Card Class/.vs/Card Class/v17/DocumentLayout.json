@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|solutionrelative:Card Class\\Card Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Card Class.cpp",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card Class.cpp",
+              "RelativeDocumentMoniker": "Card Class\\Card Class.cpp",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card Class.cpp",
+              "RelativeToolTip": "Card Class\\Card Class.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-24T20:44:54.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
