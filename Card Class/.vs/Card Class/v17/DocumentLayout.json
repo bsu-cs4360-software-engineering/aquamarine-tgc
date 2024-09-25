@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|solutionrelative:Card Class\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|solutionrelative:Card Class\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|solutionrelative:Card Class\\Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|solutionrelative:Card Class\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Hand.h",
               "DocumentMoniker": "F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Hand.h",
               "RelativeDocumentMoniker": "Card Class\\Hand.h",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Deck.h",
               "DocumentMoniker": "F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Deck.h",
               "RelativeDocumentMoniker": "Card Class\\Deck.h",
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Card.h",
               "DocumentMoniker": "F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card.h",
               "RelativeDocumentMoniker": "Card Class\\Card.h",
               "ToolTip": "F:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card.h",
               "RelativeToolTip": "Card Class\\Card.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-25T02:26:47.465Z",
               "EditorCaption": ""
