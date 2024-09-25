@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|solutionrelative:Card Class\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|solutionrelative:Card Class\\Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|solutionrelative:Card Class\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FF8C37AF-F0C0-4EB7-AA6D-DEACBA3C8CA4}|Card Class\\Card Class.vcxproj|solutionrelative:Card Class\\Card Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,8 +31,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< Updated upstream
-=======
               "Title": "Hand.h",
               "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Hand.h",
               "RelativeDocumentMoniker": "Card Class\\Hand.h",
@@ -41,7 +51,8 @@
               "RelativeToolTip": "Card Class\\Deck.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T19:32:54.251Z"
+              "WhenOpened": "2024-09-25T19:32:54.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -53,21 +64,20 @@
               "RelativeToolTip": "Card Class\\Card.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-25T19:32:54.309Z"
+              "WhenOpened": "2024-09-25T19:32:54.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
->>>>>>> Stashed changes
               "Title": "Card Class.cpp",
               "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card Class.cpp",
               "RelativeDocumentMoniker": "Card Class\\Card Class.cpp",
               "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card Class.cpp",
               "RelativeToolTip": "Card Class\\Card Class.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-24T20:44:54.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T19:32:54.446Z"
             }
           ]
         }
