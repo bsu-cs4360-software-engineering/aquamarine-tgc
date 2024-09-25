@@ -19,6 +19,46 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
+=======
+              "Title": "Hand.h",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Hand.h",
+              "RelativeDocumentMoniker": "Card Class\\Hand.h",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Hand.h",
+              "RelativeToolTip": "Card Class\\Hand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-25T19:32:54.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Deck.h",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Deck.h",
+              "RelativeDocumentMoniker": "Card Class\\Deck.h",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Deck.h",
+              "RelativeToolTip": "Card Class\\Deck.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-25T19:32:54.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Card.h",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card.h",
+              "RelativeDocumentMoniker": "Card Class\\Card.h",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card.h",
+              "RelativeToolTip": "Card Class\\Card.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-25T19:32:54.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+>>>>>>> Stashed changes
               "Title": "Card Class.cpp",
               "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card Class\\Card Class\\Card Class.cpp",
               "RelativeDocumentMoniker": "Card Class\\Card Class.cpp",
