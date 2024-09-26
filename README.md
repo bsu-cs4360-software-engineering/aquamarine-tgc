@@ -12,7 +12,7 @@ The game should be a mixture of Hearthstone, a turn based card game, and Dnd, a 
 1. Verify that user is in the project directory in terminal (aquamarine-tgc)  
 2. Compile the project locally by running the terminal command ```g++ -std=c++11 Main.cpp Game.cpp Deck.cpp Card.cpp -o card_game```  
 3. Run the terminal command ```./card_game``` to run the program locally  
-4. follow the prompts from within the terminal  
+4. Follow the prompts from within the terminal  
 
 ## Summary
 The game should be a mixture of Hearthstone and Dnd. Hearthstone is a turn-based card game between 2 people. Each player has a deck of 30 cards and a special hero that has a special power. The goal is to beat the opponent's hero, and mana crystals are used by each player to use abilities or minions. Dnd has a similar premise, but uses more of a storytelling format. Multiple players each choose a character to play in the game to exist within the world. The game is moderated by the Dungeon Master (DM) who works on creating the story. Multi-sided dice are rolled by the player to determine if their desired actions were successful. The 3 main components of Dnd are role-play, combat, and skills. 
@@ -36,16 +36,16 @@ This Trading Card Game is made to be a card game equivalent to the Role-Playing 
 
 ## Functional Requirements
 •	Allow the player to choose a class  
-•	Give the player enough card at the beginning to build a deck for any class.  
+•	Give the player enough cards at the beginning to build a deck for any class.  
 •	Allow the player to build their own decks  
-•	Only display cards in the deck builder that is playable for the chosen class  
+•	Only display cards in the deck builder that are playable for the chosen class  
 •	Allow the player to save custom decks  
 •	Join new games with other players  
 •	Continue games with friends/party members from previous games  
 •	Allow players to fight monsters for coins (possibly even item cards as loot)  
 •	Create procedurally generated dungeons for players to fight monsters in. With each room being a battle  
-•	Players should be able to draw cards from their deck and place it into their hand  
-•	Split a turn into several stages it guides new players through  
+•	Players should be able to draw cards from their deck and place them into their hand  
+•	Split a turn into several stages the program guides new players through  
 •	Allow players to play a card from their hand, so long as it meets the requirements to be played  
 •	Be able to save user data on the player’s device, with an online backup on our servers.  
 •	Allow players to purchase card packs for coins (possibly have special packs that cost real world money… not preferred. Ask the guys at EA how lootboxes went.)  
