@@ -6,12 +6,12 @@ The game should be a mixture of Hearthstone, a turn based card game, and Dnd, a 
 
 ## Installation
 1. Clone repository to run project locally
-2. Check that g++ is installed and running with the terminal command "g++ --version"
+2. Check that g++ is installed and running with the terminal command ```g++ --version```   
 
 ## Usage  
 1. Verify that user is in the project directory in terminal (aquamarine-tgc)  
-2. Compile the project locally by running the terminal command "g++ -std=c++11 Main.cpp Game.cpp Deck.cpp Card.cpp -o card_game"  
-3. Run the terminal command "./card_game" to run the program locally  
+2. Compile the project locally by running the terminal command ```g++ -std=c++11 Main.cpp Game.cpp Deck.cpp Card.cpp -o card_game```  
+3. Run the terminal command ```./card_game``` to run the program locally  
 4. follow the prompts from within the terminal  
 
 ## Summary
