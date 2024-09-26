@@ -11,7 +11,7 @@ Game::Game(const std::string& deckFile) {
 }
 
 void Game::start() {
-    std::cout << "Welcome to the Terminal Card Game!" << std::endl;
+    std::cout << "Hearthstone/DnD Game" << std::endl;
     std::cout << "Deck loaded with " << deck.size() << " cards." << std::endl;
     
     while (true) {
