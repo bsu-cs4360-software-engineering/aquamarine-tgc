@@ -1,63 +1,63 @@
 {
     "cards": [
         {
-            "id": "0",
-            "title": "Wizard",
+            "id": 0,
+            "name": "Wizard",
             "effect": ""
         },
         {
-            "id": "1",
-            "title": "Fighter",
+            "id": 1,
+            "name": "Fighter",
             "effect": ""
         },
         {
-            "id": "2",
-            "title": "Barbarian",
+            "id": 2,
+            "name": "Barbarian",
             "effect": ""
         },
         {
-            "id": "3",
-            "title": "Paladin",
+            "id": 3,
+            "name": "Paladin",
             "effect": ""
         },
         {
-            "id": "4",
-            "title": "Cleric",
+            "id": 4,
+            "name": "Cleric",
             "effect": ""
         },
         {
-            "id": "5",
-            "title": "Druid",
+            "id": 5,
+            "name": "Druid",
             "effect": ""
         },
         {
-            "id": "6",
-            "title": "Ranger",
+            "id": 6,
+            "name": "Ranger",
             "effect": ""
         },
         {
-            "id": "7",
-            "title": "Rogue",
+            "id": 7,
+            "name": "Rogue",
             "effect": ""
         },
         {
-            "id": "8",
-            "title": "Warlock",
+            "id": 8,
+            "name": "Warlock",
             "effect": ""
         },
         {
-            "id": "9",
-            "title": "Sorcerer",
+            "id": 9,
+            "name": "Sorcerer",
             "effect": ""
         },
         {
-            "id": "10",
-            "title": "Artificer",
+            "id": 10,
+            "name": "Artificer",
             "effect": ""
         },
         {
-            "id": "11",
-            "title": "Monk",
+            "id": 11,
+            "name": "Monk",
             "effect": ""
         }
     ]
