@@ -1,5 +1,4 @@
-# Hearthstone & DnD Game
-## Master Doc and README
+# Hearthstone/DnD - Master Doc and README
 ### Team Aquamarine
 
 ## Description
