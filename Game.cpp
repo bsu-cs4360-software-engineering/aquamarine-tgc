@@ -80,7 +80,12 @@ void Game::playCard() {
 
     std::cout << "You played: ";
     hand[index].display();
-    std::cout << "Card effect activated: " << hand[index].effect << std::endl;
+    if (hand[index].effect == ""){
+        std::cout << "No card effect activated" << std::endl;
+    }
+    else{
+        std::cout << "Card effect activated: " << hand[index].effect << std::endl;
+    }
     hand.erase(hand.begin() + index);
 }
 
