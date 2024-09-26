@@ -1,4 +1,19 @@
-# Master Doc - Team Aquamarine
+# Hearthstone & DnD Game
+## Master Doc and README
+### Team Aquamarine
+
+## Description
+The game should be a mixture of Hearthstone, a turn based card game, and Dnd, a story telling game involving role play, combat, and skills.
+
+## Installation
+1. Clone repository to run project locally
+2. Check that g++ is installed and running with the terminal command g++ --version
+
+## Usage  
+1. Verify that user is in the project directory in terminal (aquamarine-tgc)  
+2. Compile the project locally by running the terminal command g++ -std=c++11 Main.cpp Game.cpp Deck.cpp Card.cpp -o card_game  
+3. Run the terminal command ./card_game to run the program locally  
+4. follow the prompts from within the terminal  
 
 ## Summary
 The game should be a mixture of Hearthstone and Dnd. Hearthstone is a turn-based card game between 2 people. Each player has a deck of 30 cards and a special hero that has a special power. The goal is to beat the opponent's hero, and mana crystals are used by each player to use abilities or minions. Dnd has a similar premise, but uses more of a storytelling format. Multiple players each choose a character to play in the game to exist within the world. The game is moderated by the Dungeon Master (DM) who works on creating the story. Multi-sided dice are rolled by the player to determine if their desired actions were successful. The 3 main components of Dnd are role-play, combat, and skills. 
@@ -38,7 +53,7 @@ This Trading Card Game is made to be a card game equivalent to the Role-Playing 
 •	Allow player to exit the game when they have finished playing
 
 ## Technical Considerations:
-Database: Mongo DB
+Database: Local Json file
 
 Platform: Web Application
 
