@@ -1,13 +1,14 @@
 #pragma once
 
 #include "common.hpp"
+using namespace std;
 
 class Card {
 public:
-    Card(int i, const std::string& n, const std::string& e);
+    Card(int i, const string& n, const string& e);
     void display() const;
 
     int id;
-    std::string name;
-    std::string effect;
+    string name;
+    string effect;
 };
