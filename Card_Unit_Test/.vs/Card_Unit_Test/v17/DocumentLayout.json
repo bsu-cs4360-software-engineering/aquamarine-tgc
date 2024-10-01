@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card_Unit_Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|solutionrelative:Card_Unit_Test\\Card_Unit_Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\catch_amalgamated.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|solutionrelative:Card_Unit_Test\\catch_amalgamated.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\catch_amalgamated.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|solutionrelative:Card_Unit_Test\\catch_amalgamated.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|solutionrelative:Card_Unit_Test\\Card.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|solutionrelative:Card_Unit_Test\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "catch_amalgamated.hpp",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\catch_amalgamated.hpp",
+              "RelativeDocumentMoniker": "Card_Unit_Test\\catch_amalgamated.hpp",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\catch_amalgamated.hpp",
+              "RelativeToolTip": "Card_Unit_Test\\catch_amalgamated.hpp",
+              "ViewState": "AgIAAKkFAAAAAAAAAAAAAK0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-01T20:26:15.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "catch_amalgamated.cpp",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\catch_amalgamated.cpp",
+              "RelativeDocumentMoniker": "Card_Unit_Test\\catch_amalgamated.cpp",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\catch_amalgamated.cpp",
+              "RelativeToolTip": "Card_Unit_Test\\catch_amalgamated.cpp",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-01T20:26:11.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Card.hpp",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card.hpp",
+              "RelativeDocumentMoniker": "Card_Unit_Test\\Card.hpp",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card.hpp",
+              "RelativeToolTip": "Card_Unit_Test\\Card.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-01T19:52:30.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Card.cpp",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card.cpp",
+              "RelativeDocumentMoniker": "Card_Unit_Test\\Card.cpp",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card.cpp",
+              "RelativeToolTip": "Card_Unit_Test\\Card.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-01T19:51:45.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Card_Unit_Test.cpp",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card_Unit_Test.cpp",
+              "RelativeDocumentMoniker": "Card_Unit_Test\\Card_Unit_Test.cpp",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card_Unit_Test.cpp",
+              "RelativeToolTip": "Card_Unit_Test\\Card_Unit_Test.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-01T19:39:31.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
