@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card_Unit_Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6218EB8E-759B-48D3-8E36-6CC48CD24B97}|Card_Unit_Test\\Card_Unit_Test.vcxproj|solutionrelative:Card_Unit_Test\\Card_Unit_Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Card_Unit_Test.cpp",
+              "DocumentMoniker": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card_Unit_Test.cpp",
+              "RelativeDocumentMoniker": "Card_Unit_Test\\Card_Unit_Test.cpp",
+              "ToolTip": "D:\\BSU\\Software Engineering\\Homework\\aquamarine-tgc\\Card_Unit_Test\\Card_Unit_Test\\Card_Unit_Test.cpp",
+              "RelativeToolTip": "Card_Unit_Test\\Card_Unit_Test.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-01T19:39:31.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
