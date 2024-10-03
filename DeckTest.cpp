@@ -48,7 +48,7 @@ TEST_CASE("Deck::shuffle", "[shuffle]") {
             break;
         }
     }
-    REQUIRE(is_different);
+    REQUIRE(is_different == true);
 }
 
 TEST_CASE("Deck::drawCard", "[drawCard]") {
