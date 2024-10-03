@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\CMakeFiles\5190b4c3ec5bcab796c7c16bfcbdac6a\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\_deps\catch2-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\_deps\catch2-build\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D49F0DA2-9F6F-3B7A-9706-57D6A6AB49AB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

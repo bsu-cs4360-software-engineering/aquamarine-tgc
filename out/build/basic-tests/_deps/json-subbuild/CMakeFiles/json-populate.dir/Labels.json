@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/json-populate"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/be287fccff2c83ad065d4e3880bf4f95/json-populate.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/14dffc1926e4b4e52b8064c7fb8026aa/json-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/c119bad0df5466bed6ec70bd39b17123/json-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/c119bad0df5466bed6ec70bd39b17123/json-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/c119bad0df5466bed6ec70bd39b17123/json-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/c119bad0df5466bed6ec70bd39b17123/json-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/c119bad0df5466bed6ec70bd39b17123/json-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/c119bad0df5466bed6ec70bd39b17123/json-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/c119bad0df5466bed6ec70bd39b17123/json-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/c119bad0df5466bed6ec70bd39b17123/json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-populate"
+		],
+		"name" : "json-populate"
+	}
+}

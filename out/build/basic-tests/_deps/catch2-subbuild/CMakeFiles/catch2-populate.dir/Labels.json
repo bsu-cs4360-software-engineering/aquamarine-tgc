@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/4f35eebfad7168bcc1fe9002a8ce6906/catch2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/17c0ec0a9b0cb064b38c27df17ebf206/catch2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/84d8f4469afb7afe77a62d7e9ee271a5/catch2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/84d8f4469afb7afe77a62d7e9ee271a5/catch2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/84d8f4469afb7afe77a62d7e9ee271a5/catch2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/84d8f4469afb7afe77a62d7e9ee271a5/catch2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/84d8f4469afb7afe77a62d7e9ee271a5/catch2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/84d8f4469afb7afe77a62d7e9ee271a5/catch2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/84d8f4469afb7afe77a62d7e9ee271a5/catch2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/84d8f4469afb7afe77a62d7e9ee271a5/catch2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2-populate"
+		],
+		"name" : "catch2-populate"
+	}
+}

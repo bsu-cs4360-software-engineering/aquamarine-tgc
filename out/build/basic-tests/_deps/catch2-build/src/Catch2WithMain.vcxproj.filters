@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\_deps\catch2-src\src\catch2\internal\catch_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\_deps\catch2-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{607841B1-4D97-3357-B152-E12DEB1004DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
