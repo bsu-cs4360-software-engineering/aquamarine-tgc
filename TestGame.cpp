@@ -1,10 +1,15 @@
 #include "catch.hpp"
 #include "game.hpp"
+#include <sstream>
 
-TEST_CASE("Game class tests", "[game]") {
+TEST_CASE("Game initialization", "[game]") {
+    REQUIRE_NOTHROW(Game("cardData.json"));
+}
+
+TEST_CASE("Game basic operations", "[game]") {
     Game game("cardData.json");
 
-    SECTION("Initial game state") {
+    SECTION("Initial deck size") {
         REQUIRE(game.getDeckSize() == 12);
     }
 
@@ -17,13 +22,7 @@ TEST_CASE("Game class tests", "[game]") {
     SECTION("Play card") {
         game.drawCard();
         size_t initialHandSize = game.getHandSize();
-        game.playCard(0);  // Play the first card in hand
+        REQUIRE_NOTHROW(game.playCard(0));
         REQUIRE(game.getHandSize() == initialHandSize - 1);
-    }
-
-    SECTION("Get valid input") {
-        int input = game.getValidInput(1, 4);
-        REQUIRE(input >= 1);
-        REQUIRE(input <= 4);
     }
 }

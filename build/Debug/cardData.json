@@ -1,0 +1,64 @@
+﻿{
+    "cards": [
+        {
+            "id": 0,
+            "name": "Wizard",
+            "effect": ""
+        },
+        {
+            "id": 1,
+            "name": "Fighter",
+            "effect": ""
+        },
+        {
+            "id": 2,
+            "name": "Barbarian",
+            "effect": ""
+        },
+        {
+            "id": 3,
+            "name": "Paladin",
+            "effect": ""
+        },
+        {
+            "id": 4,
+            "name": "Cleric",
+            "effect": ""
+        },
+        {
+            "id": 5,
+            "name": "Druid",
+            "effect": ""
+        },
+        {
+            "id": 6,
+            "name": "Ranger",
+            "effect": ""
+        },
+        {
+            "id": 7,
+            "name": "Rogue",
+            "effect": ""
+        },
+        {
+            "id": 8,
+            "name": "Warlock",
+            "effect": ""
+        },
+        {
+            "id": 9,
+            "name": "Sorcerer",
+            "effect": ""
+        },
+        {
+            "id": 10,
+            "name": "Artificer",
+            "effect": ""
+        },
+        {
+            "id": 11,
+            "name": "Monk",
+            "effect": ""
+        }
+    ]
+}

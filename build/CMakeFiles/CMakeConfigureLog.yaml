@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/3/2024 8:59:00 AM.
+      Build started 10/3/2024 2:39:40 PM.
       
       Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.49
+      Time Elapsed 00:00:01.00
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 10/3/2024 8:59:01 AM.
+      Build started 10/3/2024 2:39:42 PM.
       
       Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.50
+      Time Elapsed 00:00:01.05
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-rjyvpu"
-      binary: "C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-rjyvpu"
+      source: "C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-jwiv2h"
+      binary: "C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-jwiv2h"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-rjyvpu'
+        Change Dir: 'C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-jwiv2h'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0601f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_771ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/3/2024 8:59:01 AM.
+        Build started 10/3/2024 2:39:44 PM.
         
-        Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjyvpu\\cmTC_0601f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jwiv2h\\cmTC_771ce.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0601f.dir\\Debug\\".
+          Creating directory "cmTC_771ce.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjyvpu\\Debug\\".
-          Creating directory "cmTC_0601f.dir\\Debug\\cmTC_0601f.tlog\\".
+          Creating directory "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jwiv2h\\Debug\\".
+          Creating directory "cmTC_771ce.dir\\Debug\\cmTC_771ce.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0601f.dir\\Debug\\cmTC_0601f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0601f.dir\\Debug\\cmTC_0601f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_771ce.dir\\Debug\\cmTC_771ce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_771ce.dir\\Debug\\cmTC_771ce.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0601f.dir\\Debug\\\\" /Fd"cmTC_0601f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_771ce.dir\\Debug\\\\" /Fd"cmTC_771ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0601f.dir\\Debug\\\\" /Fd"cmTC_0601f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_771ce.dir\\Debug\\\\" /Fd"cmTC_771ce.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjyvpu\\Debug\\cmTC_0601f.exe" /INCREMENTAL /ILK:"cmTC_0601f.dir\\Debug\\cmTC_0601f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-rjyvpu/Debug/cmTC_0601f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-rjyvpu/Debug/cmTC_0601f.lib" /MACHINE:X64  /machine:x64 cmTC_0601f.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_0601f.vcxproj -> C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjyvpu\\Debug\\cmTC_0601f.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jwiv2h\\Debug\\cmTC_771ce.exe" /INCREMENTAL /ILK:"cmTC_771ce.dir\\Debug\\cmTC_771ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-jwiv2h/Debug/cmTC_771ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-jwiv2h/Debug/cmTC_771ce.lib" /MACHINE:X64  /machine:x64 cmTC_771ce.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_771ce.vcxproj -> C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jwiv2h\\Debug\\cmTC_771ce.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_0601f.dir\\Debug\\cmTC_0601f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_0601f.dir\\Debug\\cmTC_0601f.tlog\\cmTC_0601f.lastbuildstate".
-        Done Building Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rjyvpu\\cmTC_0601f.vcxproj" (default targets).
+          Deleting file "cmTC_771ce.dir\\Debug\\cmTC_771ce.tlog\\unsuccessfulbuild".
+          Touching "cmTC_771ce.dir\\Debug\\cmTC_771ce.tlog\\cmTC_771ce.lastbuildstate".
+        Done Building Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jwiv2h\\cmTC_771ce.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.46
+        Time Elapsed 00:00:00.74
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-7tnwyg"
-      binary: "C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-7tnwyg"
+      source: "C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-sw2svd"
+      binary: "C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-sw2svd"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-7tnwyg'
+        Change Dir: 'C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-sw2svd'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28ce1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_73d09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 10/3/2024 8:59:02 AM.
+        Build started 10/3/2024 2:39:45 PM.
         
-        Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7tnwyg\\cmTC_28ce1.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sw2svd\\cmTC_73d09.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_28ce1.dir\\Debug\\".
+          Creating directory "cmTC_73d09.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7tnwyg\\Debug\\".
-          Creating directory "cmTC_28ce1.dir\\Debug\\cmTC_28ce1.tlog\\".
+          Creating directory "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sw2svd\\Debug\\".
+          Creating directory "cmTC_73d09.dir\\Debug\\cmTC_73d09.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_28ce1.dir\\Debug\\cmTC_28ce1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_28ce1.dir\\Debug\\cmTC_28ce1.tlog\\unsuccessfulbuild".
+          Creating "cmTC_73d09.dir\\Debug\\cmTC_73d09.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_73d09.dir\\Debug\\cmTC_73d09.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28ce1.dir\\Debug\\\\" /Fd"cmTC_28ce1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_73d09.dir\\Debug\\\\" /Fd"cmTC_73d09.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28ce1.dir\\Debug\\\\" /Fd"cmTC_28ce1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_73d09.dir\\Debug\\\\" /Fd"cmTC_73d09.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7tnwyg\\Debug\\cmTC_28ce1.exe" /INCREMENTAL /ILK:"cmTC_28ce1.dir\\Debug\\cmTC_28ce1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-7tnwyg/Debug/cmTC_28ce1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-7tnwyg/Debug/cmTC_28ce1.lib" /MACHINE:X64  /machine:x64 cmTC_28ce1.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_28ce1.vcxproj -> C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7tnwyg\\Debug\\cmTC_28ce1.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sw2svd\\Debug\\cmTC_73d09.exe" /INCREMENTAL /ILK:"cmTC_73d09.dir\\Debug\\cmTC_73d09.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-sw2svd/Debug/cmTC_73d09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/isabe/Documents/aquamarine-tgc/build/CMakeFiles/CMakeScratch/TryCompile-sw2svd/Debug/cmTC_73d09.lib" /MACHINE:X64  /machine:x64 cmTC_73d09.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_73d09.vcxproj -> C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sw2svd\\Debug\\cmTC_73d09.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_28ce1.dir\\Debug\\cmTC_28ce1.tlog\\unsuccessfulbuild".
-          Touching "cmTC_28ce1.dir\\Debug\\cmTC_28ce1.tlog\\cmTC_28ce1.lastbuildstate".
-        Done Building Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7tnwyg\\cmTC_28ce1.vcxproj" (default targets).
+          Deleting file "cmTC_73d09.dir\\Debug\\cmTC_73d09.tlog\\unsuccessfulbuild".
+          Touching "cmTC_73d09.dir\\Debug\\cmTC_73d09.tlog\\cmTC_73d09.lastbuildstate".
+        Done Building Project "C:\\Users\\isabe\\Documents\\aquamarine-tgc\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sw2svd\\cmTC_73d09.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.49
+        Time Elapsed 00:00:00.85
         
       exitCode: 0
   -

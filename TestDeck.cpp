@@ -5,14 +5,14 @@ TEST_CASE("Deck class tests", "[deck]") {
     Deck deck;
 
     SECTION("Load from JSON") {
-        deck.loadFromJson("./cardData.json");
+        REQUIRE_NOTHROW(deck.loadFromJson("cardData.json"));
         REQUIRE(deck.size() == 12);
     }
 
     SECTION("Draw card") {
-        deck.loadFromJson("./cardData.json");
+        deck.loadFromJson("cardData.json");
         size_t initialSize = deck.size();
-        Card drawnCard = deck.drawCard();
+        REQUIRE_NOTHROW(deck.drawCard());
         REQUIRE(deck.size() == initialSize - 1);
     }
 
@@ -21,13 +21,13 @@ TEST_CASE("Deck class tests", "[deck]") {
     }
 
     SECTION("Shuffle deck") {
-        deck.loadFromJson("./cardData.json");
+        deck.loadFromJson("cardData.json");
         std::vector<Card> originalOrder;
         while (deck.size() > 0) {
             originalOrder.push_back(deck.drawCard());
         }
 
-        deck.loadFromJson("./cardData.json");
+        deck.loadFromJson("cardData.json");
         deck.shuffle();
 
         std::vector<Card> shuffledOrder;
