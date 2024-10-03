@@ -14,6 +14,10 @@ The game should be a mixture of Hearthstone, a turn based card game, and Dnd, a 
 3. Run the terminal command ```./card_game``` to run the program locally  
 4. follow the prompts from within the terminal  
 
+## Testing
+1. in the aquamarine-tgc folder in terminal, navigate to ```...\aquamarine-tgc\build\debug```
+2. run the command ```./CardGameTestsNew``` to have the tests run
+
 ## Summary
 The game should be a mixture of Hearthstone and Dnd. Hearthstone is a turn-based card game between 2 people. Each player has a deck of 30 cards and a special hero that has a special power. The goal is to beat the opponent's hero, and mana crystals are used by each player to use abilities or minions. Dnd has a similar premise, but uses more of a storytelling format. Multiple players each choose a character to play in the game to exist within the world. The game is moderated by the Dungeon Master (DM) who works on creating the story. Multi-sided dice are rolled by the player to determine if their desired actions were successful. The 3 main components of Dnd are role-play, combat, and skills. 
 

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/021f35e7ae7298a6a41399b3d130409b/catch2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/17b150f3d6b2733bb89d0cc875f7fb2a/catch2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/4ea6f7e9797a5b4e6a74f4af33dfde6b/catch2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/4ea6f7e9797a5b4e6a74f4af33dfde6b/catch2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/4ea6f7e9797a5b4e6a74f4af33dfde6b/catch2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/4ea6f7e9797a5b4e6a74f4af33dfde6b/catch2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/4ea6f7e9797a5b4e6a74f4af33dfde6b/catch2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/4ea6f7e9797a5b4e6a74f4af33dfde6b/catch2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/4ea6f7e9797a5b4e6a74f4af33dfde6b/catch2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-subbuild/CMakeFiles/4ea6f7e9797a5b4e6a74f4af33dfde6b/catch2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2-populate"
+		],
+		"name" : "catch2-populate"
+	}
+}

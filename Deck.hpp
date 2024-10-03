@@ -9,7 +9,6 @@ public:
     void shuffle();
     Card drawCard();
     size_t size() const;
-
-private:
     std::vector<Card> cards;
+    private:
 };

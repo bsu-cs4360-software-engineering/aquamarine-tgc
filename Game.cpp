@@ -23,7 +23,14 @@ void Game::start() {
                 drawCard();
                 break;
             case 2:
-                playCard();
+                if (hand.empty()) {
+                    std::cout << "Your hand is empty. Draw a card first." << std::endl;
+                } else {
+                    displayHand();
+                    std::cout << "Enter the index of the card you want to play (0-" << hand.size() - 1 << "): ";
+                    size_t index = static_cast<size_t>(getValidInput(0, hand.size() - 1));
+                    playCard(index);
+                }
                 break;
             case 3:
                 displayHand();
@@ -68,15 +75,16 @@ void Game::drawCard() {
     }
 }
 
-void Game::playCard() {
+void Game::playCard(size_t index) {
     if (hand.empty()) {
         std::cout << "Your hand is empty. Draw a card first." << std::endl;
         return;
     }
 
-    displayHand();
-    std::cout << "Enter the index of the card you want to play (0-" << hand.size() - 1 << "): ";
-    int index = getValidInput(0, hand.size() - 1);
+    if (index >= hand.size()) {
+        std::cout << "Invalid card index. Please choose a card between 0 and " << hand.size() - 1 << "." << std::endl;
+        return;
+    }
 
     std::cout << "You played: ";
     hand[index].display();
@@ -94,4 +102,12 @@ void Game::displayHand() const {
         std::cout << i << ": ";
         hand[i].display();
     }
+}
+
+size_t Game::getDeckSize() const {
+    return deck.size();
+}
+
+size_t Game::getHandSize() const {
+    return hand.size();
 }

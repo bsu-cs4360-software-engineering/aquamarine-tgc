@@ -1,0 +1,152 @@
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\C119BAD0DF5466BED6EC70BD39B17123\JSON-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/tmp/json-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\C119BAD0DF5466BED6EC70BD39B17123\JSON-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/download-json-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/verify-json-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/extract-json-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\C119BAD0DF5466BED6EC70BD39B17123\JSON-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\C119BAD0DF5466BED6EC70BD39B17123\JSON-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\C119BAD0DF5466BED6EC70BD39B17123\JSON-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\_deps\json-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\C119BAD0DF5466BED6EC70BD39B17123\JSON-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\_deps\json-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\C119BAD0DF5466BED6EC70BD39B17123\JSON-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\_deps\json-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\C119BAD0DF5466BED6EC70BD39B17123\JSON-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\isabe\Documents\aquamarine-tgc\out\build\basic-tests\_deps\json-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\14DFFC1926E4B4E52B8064C7FB8026AA\JSON-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/Debug/json-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/Debug/json-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKEFILES\BE287FCCFF2C83AD065D4E3880BF4F95\JSON-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ISABE\DOCUMENTS\AQUAMARINE-TGC\OUT\BUILD\BASIC-TESTS\_DEPS\JSON-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild -BC:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild --check-stamp-file C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

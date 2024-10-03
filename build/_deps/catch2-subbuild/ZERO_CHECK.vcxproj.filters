@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\isabe\Documents\aquamarine-tgc\build\_deps\catch2-subbuild\CMakeFiles\021f35e7ae7298a6a41399b3d130409b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F8C91FC5-8B74-31CC-9FD6-EB5C5921A03F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CardGameTests_tests-b12d07c.cmake")
+  include("C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CardGameTests_tests-b12d07c.cmake")
+else()
+  add_test(CardGameTests_NOT_BUILT-b12d07c CardGameTests_NOT_BUILT-b12d07c)
+endif()
