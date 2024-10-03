@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "any": "cpp",
+        "optional": "cpp",
+        "variant": "cpp"
+    }
+}

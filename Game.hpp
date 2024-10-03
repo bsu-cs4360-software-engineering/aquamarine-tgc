@@ -7,15 +7,17 @@ class Game {
 public:
     Game(const std::string& deckFile);
     void start();
+    int getValidInput(int min, int max) const;
+    void playCard(size_t index);
+    void drawCard();
+    void displayHand() const;
+    
+    size_t getDeckSize() const;
+    size_t getHandSize() const;
 
 private:
     void displayMenu() const;
-    int getValidInput(int min, int max) const;
-    void drawCard();
-    void playCard();
-    void displayHand() const;
-
+    
     Deck deck;
     std::vector<Card> hand;
 };
-
