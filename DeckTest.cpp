@@ -2,6 +2,7 @@
 #include "catch.hpp"
 #include "deck.hpp"
 #include "common.hpp"
+#include "card.cpp"
 
 using json = json;
 
