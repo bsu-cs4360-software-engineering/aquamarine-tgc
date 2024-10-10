@@ -44,9 +44,9 @@
        return deck.size();
    }
 
-   const std::vector<Card>& Game::getHand() const {
-       return playerTurn ? playerHand : computerHand;
-   }
+   int Game::getHandSize() const {
+        return playerTurn ? playerHand.size() : computerHand.size();
+    }
 
    const std::vector<Card>& Game::getField() const {
        return field;

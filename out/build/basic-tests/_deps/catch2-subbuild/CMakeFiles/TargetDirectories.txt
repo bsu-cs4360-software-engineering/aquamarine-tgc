@@ -1,3 +1,0 @@
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/catch2-populate.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-subbuild/CMakeFiles/ZERO_CHECK.dir

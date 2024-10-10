@@ -1,7 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDependentOption.cmake
-C:/Program Files/CMake/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake
-C:/Program Files/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake
-C:/Program Files/CMake/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-src/CMake/CatchConfigOptions.cmake
-C:/Users/isabe/Documents/aquamarine-tgc/build/_deps/catch2-src/CMakeLists.txt

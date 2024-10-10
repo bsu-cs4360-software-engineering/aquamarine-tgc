@@ -2,7 +2,7 @@
 
 int main() {
     Game game("cardData.json");
-    game.start();
+    // Implement a simple console-based game loop here
     return 0;
 }
 
