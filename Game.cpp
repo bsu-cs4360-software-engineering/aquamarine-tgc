@@ -1,113 +1,64 @@
 #include "game.hpp"
 
-Game::Game(const std::string& deckFile) {
-    try {
-        deck.loadFromJson(deckFile);
-        deck.shuffle();
-    } catch (const std::exception& e) {
-        std::cerr << "Error initializing game: " << e.what() << std::endl;
-        exit(1);
-    }
-}
+   Game::Game(const std::string& deckFile) : playerTurn(true) {
+       try {
+           deck.loadFromJson(deckFile);
+           deck.shuffle();
+       } catch (const std::exception& e) {
+           std::cerr << "Error initializing game: " << e.what() << std::endl;
+           exit(1);
+       }
+   }
 
-void Game::start() {
-    std::cout << "Hearthstone/DnD Game" << std::endl;
-    std::cout << "Deck loaded with " << deck.size() << " cards." << std::endl;
-    
-    while (true) {
-        displayMenu();
-        int choice = getValidInput(1, 4);
+   bool Game::drawCard() {
+       if (deck.size() > 0) {
+           if (playerTurn) {
+               playerHand.push_back(deck.drawCard());
+           } else {
+               computerHand.push_back(deck.drawCard());
+           }
+           return true;
+       }
+       return false;
+   }
 
-        switch (choice) {
-            case 1:
-                drawCard();
-                break;
-            case 2:
-                if (hand.empty()) {
-                    std::cout << "Your hand is empty. Draw a card first." << std::endl;
-                } else {
-                    displayHand();
-                    std::cout << "Enter the index of the card you want to play (0-" << hand.size() - 1 << "): ";
-                    size_t index = static_cast<size_t>(getValidInput(0, hand.size() - 1));
-                    playCard(index);
-                }
-                break;
-            case 3:
-                displayHand();
-                break;
-            case 4:
-                std::cout << "Thanks for playing!" << std::endl;
-                return;
-        }
-    }
-}
+   void Game::playCard(size_t index) {
+       if (playerTurn && index < playerHand.size()) {
+           field.push_back(playerHand[index]);
+           playerHand.erase(playerHand.begin() + index);
+       }
+   }
 
-void Game::displayMenu() const {
-    std::cout << "\n=== Menu ===" << std::endl;
-    std::cout << "1. Draw a card" << std::endl;
-    std::cout << "2. Play a card" << std::endl;
-    std::cout << "3. Display hand" << std::endl;
-    std::cout << "4. Quit" << std::endl;
-    std::cout << "Enter your choice (1-4): ";
-}
+   void Game::endTurn() {
+       playerTurn = !playerTurn;
+       if (!playerTurn) {
+           computerTurn();
+       }
+   }
 
-int Game::getValidInput(int min, int max) const {
-    int choice;
-    while (true) {
-        if (std::cin >> choice && choice >= min && choice <= max) {
-            return choice;
-        } else {
-            std::cout << "Invalid input. Please enter a number between " << min << " and " << max << ": ";
-            std::cin.clear();
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        }
-    }
-}
+   bool Game::isPlayerTurn() const {
+       return playerTurn;
+   }
 
-void Game::drawCard() {
-    try {
-        hand.push_back(deck.drawCard());
-        std::cout << "You drew: ";
-        hand.back().display();
-        std::cout << "Cards left in deck: " << deck.size() << std::endl;
-    } catch (const std::runtime_error& e) {
-        std::cout << e.what() << std::endl;
-    }
-}
+   size_t Game::getDeckSize() const {
+       return deck.size();
+   }
 
-void Game::playCard(size_t index) {
-    if (hand.empty()) {
-        std::cout << "Your hand is empty. Draw a card first." << std::endl;
-        return;
-    }
+   const std::vector<Card>& Game::getHand() const {
+       return playerTurn ? playerHand : computerHand;
+   }
 
-    if (index >= hand.size()) {
-        std::cout << "Invalid card index. Please choose a card between 0 and " << hand.size() - 1 << "." << std::endl;
-        return;
-    }
+   const std::vector<Card>& Game::getField() const {
+       return field;
+   }
 
-    std::cout << "You played: ";
-    hand[index].display();
-    std::cout << "Card effect activated: " << hand[index].effect << std::endl;
-    hand.erase(hand.begin() + index);
-}
-
-void Game::displayHand() const {
-    if (hand.empty()) {
-        std::cout << "Your hand is empty." << std::endl;
-        return;
-    }
-    std::cout << "Your hand:" << std::endl;
-    for (size_t i = 0; i < hand.size(); ++i) {
-        std::cout << i << ": ";
-        hand[i].display();
-    }
-}
-
-size_t Game::getDeckSize() const {
-    return deck.size();
-}
-
-size_t Game::getHandSize() const {
-    return hand.size();
-}
+   void Game::computerTurn() {
+       // Simple AI: draw a card and play a random card if possible
+       drawCard();
+       if (!computerHand.empty()) {
+           size_t randomIndex = rand() % computerHand.size();
+           field.push_back(computerHand[randomIndex]);
+           computerHand.erase(computerHand.begin() + randomIndex);
+       }
+       endTurn();
+   }

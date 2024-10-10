@@ -1,23 +1,27 @@
-#pragma once
+// game.hpp
+   #pragma once
 
-#include "common.hpp"
-#include "deck.hpp"
+   #include "common.hpp"
+   #include "deck.hpp"
 
-class Game {
-public:
-    Game(const std::string& deckFile);
-    void start();
-    int getValidInput(int min, int max) const;
-    void playCard(size_t index);
-    void drawCard();
-    void displayHand() const;
-    
-    size_t getDeckSize() const;
-    size_t getHandSize() const;
+   class Game {
+   public:
+       Game(const std::string& deckFile);
+       bool drawCard();
+       void playCard(size_t index);
+       void endTurn();
+       bool isPlayerTurn() const;
+       
+       size_t getDeckSize() const;
+       const std::vector<Card>& getHand() const;
+       const std::vector<Card>& getField() const;
 
-private:
-    void displayMenu() const;
-    
-    Deck deck;
-    std::vector<Card> hand;
-};
+   private:
+       void computerTurn();
+       
+       Deck deck;
+       std::vector<Card> playerHand;
+       std::vector<Card> computerHand;
+       std::vector<Card> field;
+       bool playerTurn;
+   };

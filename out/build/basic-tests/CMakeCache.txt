@@ -178,8 +178,8 @@ CATCH_CONFIG_WINDOWS_CRTDBG:BOOL=OFF
 //Read docs/configuration.md for details
 CATCH_CONFIG_WINDOWS_SEH:BOOL=OFF
 
-//Build tests, enable warnings, enable Werror, etc
-CATCH_DEVELOPMENT_BUILD:BOOL=ON
+//No help, variable specified on the command line.
+CATCH_DEVELOPMENT_BUILD:UNINITIALIZED=ON
 
 //Enable CMake configuration tests. WARNING: VERY EXPENSIVE
 CATCH_ENABLE_CONFIGURE_TESTS:BOOL=OFF
@@ -570,8 +570,6 @@ CMAKE_CACHE_PATCH_VERSION:INTERNAL=4
 CMAKE_COMMAND:INTERNAL=C:/Program Files/CMake/bin/cmake.exe
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files/CMake/bin/cpack.exe
-//ADVANCED property for variable: CMAKE_CTEST_COMMAND
-CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files/CMake/bin/ctest.exe
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
@@ -670,7 +668,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
