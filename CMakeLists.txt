@@ -23,7 +23,7 @@ set(CATCH_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(JSON_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 # Find Qt6
-find_package(Qt6 COMPONENTS Core Gui Widgets REQUIRED)
+find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
 # Add your main game executable (console version)
 add_executable(CardGameConsole 
