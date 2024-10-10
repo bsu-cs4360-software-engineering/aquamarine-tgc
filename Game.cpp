@@ -48,9 +48,13 @@
         return playerTurn ? playerHand.size() : computerHand.size();
     }
 
-   const std::vector<Card>& Game::getField() const {
-       return field;
-   }
+    const std::vector<Card>& Game::getHand() const {
+        return playerTurn ? playerHand : computerHand;
+    }
+
+    const std::vector<Card>& Game::getField() const {
+        return field;
+    }
 
    void Game::computerTurn() {
        // Simple AI: draw a card and play a random card if possible

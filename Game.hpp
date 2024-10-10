@@ -11,9 +11,9 @@
        void playCard(size_t index);
        void endTurn();
        bool isPlayerTurn() const;
-       int getHandSize() const;
        
        size_t getDeckSize() const;
+       int getHandSize() const;
        const std::vector<Card>& getHand() const;
        const std::vector<Card>& getField() const;
 
