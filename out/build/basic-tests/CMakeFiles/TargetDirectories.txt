@@ -1,13 +1,6 @@
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CMakeFiles/CardGame.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CMakeFiles/CardGameTestsNew.dir
+C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CMakeFiles/CardGameConsole.dir
+C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CMakeFiles/CardGameGUI.dir
+C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CMakeFiles/CardGameTests.dir
 C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CMakeFiles/run_tests.dir
 C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CMakeFiles/ALL_BUILD.dir
 C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/CMakeFiles/ZERO_CHECK.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/json-build/CMakeFiles/ALL_BUILD.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-build/CMakeFiles/Experimental.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-build/CMakeFiles/Nightly.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-build/CMakeFiles/Continuous.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-build/CMakeFiles/NightlyMemoryCheck.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-build/CMakeFiles/ALL_BUILD.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-build/src/CMakeFiles/Catch2.dir
-C:/Users/isabe/Documents/aquamarine-tgc/out/build/basic-tests/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
